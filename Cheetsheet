@@ -1,0 +1,58 @@
+<!DOCTYPE html> <html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="frontend-cheatsheet"> 
+<title>Frontend Cheatsheet</title>
+<link href="styles.css" rel="stylesheet">
+</head>
+
+<main>
+
+    <header>
+        <h1>Front End Coding Cheat Sheet</h1>
+    </header>
+<body>
+<div class="table">
+    <h2>How to make a Table</h2>
+    <table border="1"> 
+        <caption><code><span class="keyword">caption</span> tag for table caption</code></caption>
+        <thead><code>
+            <ul><li><span class="keyword">thead</span> is TABLE HEAD, and is used to group header content, in an HTML table.</li>
+            <ul><li>basically table version of <code><span class="keyword">header</span></code></li></ul><br>
+            <li><span class="keyword">tbody</span> is TABLE BODY, and is used to group the body content, aka table data, in an HTML table</li>
+            <ul><li>basically table version of <code><span class="keyword">body</span></code></li></ul><br>
+            <li><span class="keyword">TD</span> is TABLE DATA and is the vertical boxes in a table</li>
+            <ul><li>basically table version of <code><span class="keyword">body</span></code></li></ul><br>
+            <li><span class="keyword">TH</span> is TABLE HEADER and is the horizontal boxes in a table</li>
+            <ul><li>basically table version of <code><span class="keyword">body</span></code></li></ul><br>
+            <li><span class="keyword">TR</span> is TABLE ROW and is the horizontal section in a table</li>
+            <ul><li>basically table version of <code><span class="keyword">body</span></code></li></ul><br></ul>
+        </code></div>
+        
+
+    <tr align="center"><h3>TR makes a table row</h3>
+        <th width="100">TH Examples</th>
+        <th width="100">TH Examples</th>
+        <th width="100">TH Examples</th>
+        <th width="100">TH Examples</th>
+        <th width="290">This whole left-to-right (horizontal) section is a TR, or Table Row</th>
+
+        </thead>
+        </tr>
+        
+        <tbody>
+    <tr align="center">
+        <td>TD is table data</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td> </tbody>
+    </tr>
+    
+    <tr align="center">
+        <td>Use another TR tag to make more rows</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    </table>
+<br>
